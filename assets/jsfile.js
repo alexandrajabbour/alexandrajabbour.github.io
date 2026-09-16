@@ -1,19 +1,7 @@
 
-/* Institutions ***************************************************************/
-
-$('a[id=cemfi]'        ).attr('href','https://www.cemfi.es/');
-$('a[id=bocconi]'      ).attr('href','https://economics.unibocconi.eu/');
-
-/* People *********************************************************************/
-
-$('a[id=manolo]'        ).attr('href','https://www.cemfi.es/~arellano/');
-$('a[id=tincho]'        ).attr('href','https://martinalmuzara.com/');
-$('a[id=orazio]'        ).attr('href','https://campuspress.yale.edu/orazioattanasio/');
-$('a[id=britta]'        ).attr('href','https://ifs.org.uk/people/britta-augsburg');
-
 /* Defined links options *******************************************************/
 
-$('a'                  ).attr('target','_blank');
+$('a').not('.sitehead a').attr('target','_blank');
 $('a[class=simple]'    ).attr('target','_self');
 $('a[class=top]'       ).attr('target','_self');
 $('a[class=down]'      ).attr('target','_self');
