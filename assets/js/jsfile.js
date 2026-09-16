@@ -1,5 +1,4 @@
 
-
 /* Defined links options *******************************************************/
 
 $('a').not('.sitehead a').attr('target','_blank');
